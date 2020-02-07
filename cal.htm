@@ -1,0 +1,39 @@
+	<div class="container radius" id="divdate">
+		<div id="my-cal">
+			<div class="mycal-header">
+				<button class="mycal-btn radius" data-calendar-toggle="previous">
+					<b><<</b>
+				</button>
+
+				<div class="mycal-header__label" data-calendar-label="month">
+					Январь 2019
+				</div>
+
+
+				<button class="mycal-btn radius" data-calendar-toggle="next">
+					<b>>></b>
+				</button>
+				<div class="closebtn right hand radius" onclick="hideCal()" title="Закрыть">
+					<b>X</b>
+				</div>
+			</div>
+			<div class="mycal-week">
+				<span>пн</span>
+				<span>вт</span>
+				<span>ср</span>
+				<span>чт</span>
+				<span>пт</span>
+				<span>сб</span>
+				<span>вс</span>
+			</div>
+			<div class="mycal-body" data-calendar-area="month"></div>
+		</div>
+	</div>
+	<script src="cal.js" type="text/javascript"></script>
+	<script>
+		window.addEventListener('load', function () {
+			myCalendar.init({
+				disableDays: true
+			});
+		})
+	</script>

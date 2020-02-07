@@ -1,0 +1,27 @@
+body{font-size: 14px; text-align:center; margin:0 auto;}
+
+.default{cursor: default;}
+.hand {cursor: hand;}
+.left{float:left;}
+.right{float:right;}
+.radius{border-radius:4px;}
+
+.finder{border:1px solid #aaa; width:198px;width: 574px; margin: auto; background-color: #eee; padding: 22 0 0 0;}
+
+.tableRes{border:1px solid #aaa;margin: auto; background-color: #f3f3ff	; height:104px; width:574px; margin-top:5px; margin-bottom: 5px; font-size: 11px;}
+	.tableResHeader{border-bottom: 1px solid #aaa;height:26px;}
+		input.date {width:70px; text-align:center; border:1px solid #aaa; margin-top: 4px;font-size: 11px;background-color: #f6f6f6;}
+	.tableResCell{height:16px;width:40px;border-bottom:1px solid #aaa; border-right:1px solid #aaa;}
+	.tableResCellEnd{height:16px;width:41px;border-bottom:1px solid #aaa;}
+	.tableResRow{height:16px;width:40px;border-bottom:1px solid #aaa; border-right:1px solid #aaa;}
+	.tableResRowEnd{height:16px;width:41px;border-bottom:1px solid #aaa;background-color: #efe;}
+		.canselect {cursor: hand;background-color:#efe;}
+		.selected {cursor: hand;background-color: #ffd;}
+		.reserved{cursor: not-allowed; background-color: #fdd;}
+	.tableResFooter{height:26px; width: 574px; padding-left: 3px;}
+		.box{height: 10px; width: 10px; border: 1px solid #aaa; margin-top: 7px; margin-right: 4px;}
+			.bgreen{background-color: #efe; margin-left: 1px;}
+			.byellow{background-color: #ffd;}
+			.bred{background-color: #fdd;}
+		.boxinfo{padding-right: 10px; margin-top: 6px;font-size: 10px;}
+		.resBtn{ margin-top: 4px; display:none; margin-right: 8px; background-color: #f6f6f6; height: 16px; border: 1px solid #aaa; text-align: center; width: 110px;}
