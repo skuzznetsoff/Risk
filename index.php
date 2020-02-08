@@ -4,10 +4,10 @@
 header("Cache-Control: no-store, no-cache, must-revalidate");
 header("Expires: " . date("r"));
 
-$user 	  = 'genius-aut_root';
-$password = 'rOOt404RooT';
-$db   	  = 'genius-aut_risksport';
-$host 	  = 'genius-aut.mysql';
+$user 	  = '';
+$password = '';
+$db   	  = '';
+$host 	  = 'mysql';
 $port 	  = 3306;
 
 
